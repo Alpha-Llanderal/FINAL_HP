@@ -11,7 +11,7 @@ const Spells = () => {
     const fetchSpells = async () => {
       //fetch spells api
       try {
-        const response = await fetch("https://hp-api.herokuapp.com/api/spells");
+        const response = await fetch("https://hp-api.herokuapp.com/api/spells"); //search spell
         if (!response.ok) {
           throw new Error("Failed to fetch spells");
         }
