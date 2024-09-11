@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import "./about.css";
 
-//we create a function variables
+//we created a function variables
 const About = () => {
   const [students, setStudents] = useState([]);
   const [selectedHouse, setSelectedHouse] = useState(null);
@@ -12,7 +12,7 @@ const About = () => {
       //we fetch the data.
       try {
         const response = await fetch(
-          "https://hp-api.herokuapp.com/api/characters/students"
+          "https://hp-api.herokuapp.com/api/characters/students" //fetch the students
         );
         if (!response.ok) {
           throw new Error("Failed to fetch data");
@@ -48,7 +48,7 @@ const About = () => {
       </h2>
       <img
         className="magicWnd"
-        onClick={() => setSelectedHouse(null)} // add onclick to show to show variables when I click
+        onClick={() => setSelectedHouse(null)} // add onclick to show variables (students) when clicked
         src="/images/magic-wand.png"
       />
 
