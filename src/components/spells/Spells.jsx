@@ -76,7 +76,7 @@ const Spells = () => {
               </div>
             ))
           ) : (
-            <p className="def-m">Search Spell!</p>
+            <p className="def-m"></p>
           )}
         </div>
       </div>
