@@ -111,7 +111,7 @@ const Contacts = () => {
             <div class="form-container">
               <form class="form">
                 <div class="form-group">
-                  <label for="email">Company Email</label>
+                  <label for="email">Email</label>
                   <input
                     type="text"
                     lassName="textarea fw-lighter"
@@ -121,7 +121,7 @@ const Contacts = () => {
                   />
                 </div>
                 <div class="form-group">
-                  <label for="textarea">How Can We Help You?</label>
+                  <label for="textarea">How Can We Help?</label>
                   <textarea
                     name="textarea"
                     className="textarea fw-lighter"
@@ -143,7 +143,7 @@ const Contacts = () => {
       </div>
       <div className="row text-center">
         <footer>
-          <p>&copy; 2024. All rights reserved.</p>
+          <p>&copy; 2024. Harry and Alpha. All rights reserved.</p>
         </footer>
       </div>
     </div>
